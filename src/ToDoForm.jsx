@@ -26,7 +26,7 @@ export default function ToDoForm({addTask}) {
                        value={newTask}
                        onChange={handleChange}
                        onKeyDown={handleKayPress}
-                       placeholder="Введи сюда новый пункт..."
+                       placeholder="Enter something..."
                 />
                 <button>ADD</button>
             </form>
